@@ -1,7 +1,5 @@
 package login;
 
-import java.io.IOException;
-
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -11,7 +9,7 @@ import com.aventstack.extentreports.Status;
 import com.tricentis.genericutility.BaseClass;
 import com.tricentis.genericutility.ListenerImplementation;
 
-@Listeners(ListenerImplementation.class)
+
 public class TC_DWS_02_Test extends BaseClass{
 	
 	@Test(groups = "system")
